@@ -1,0 +1,440 @@
+2021-03-08 14:50:58.266 +03:00 [INF] WebApi Starting...
+2021-03-08 14:52:06.101 +03:00 [INF] WebApi Starting...
+2021-03-08 14:52:44.534 +03:00 [INF] WebApi Starting...
+2021-03-08 14:52:46.772 +03:00 [INF] HTTP GET /swagger/index.html responded 404 in 38.3907 ms
+2021-03-08 14:52:52.810 +03:00 [INF] HTTP GET / responded 301 in 1.1123 ms
+2021-03-08 14:52:52.932 +03:00 [INF] HTTP GET /index.html responded 200 in 81.9448 ms
+2021-03-08 14:52:53.074 +03:00 [INF] HTTP GET /swagger-ui.css responded 200 in 73.3455 ms
+2021-03-08 14:52:53.074 +03:00 [INF] HTTP GET /swagger-ui-standalone-preset.js responded 200 in 70.8981 ms
+2021-03-08 14:52:53.080 +03:00 [INF] HTTP GET /swagger-ui-bundle.js responded 200 in 78.9920 ms
+2021-03-08 14:52:53.768 +03:00 [INF] HTTP GET /favicon-32x32.png responded 200 in 0.5893 ms
+2021-03-08 14:52:53.825 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 111.7067 ms
+2021-03-08 14:53:38.781 +03:00 [INF] WebApi Starting...
+2021-03-08 14:53:41.501 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 424.8379 ms
+2021-03-08 14:53:42.165 +03:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 20.8867 ms
+2021-03-08 14:53:42.275 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 168.8608 ms
+2021-03-08 14:53:50.124 +03:00 [INF] WebApi Starting...
+2021-03-08 14:53:53.147 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 172.1248 ms
+2021-03-08 14:53:53.706 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 113.3432 ms
+2021-03-08 15:55:09.005 +03:00 [INF] WebApi Starting...
+2021-03-08 15:55:10.815 +03:00 [ERR] System.ArgumentException: The type 'Core.DataSecurity.Encryption' is not assignable to service 'Core.DataSecurity.IEncryption'.
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration(Guid id, RegistrationData data, IInstanceActivator activator, IResolvePipelineBuilder pipelineBuilder, Service[] services, IComponentRegistration target)
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration[TLimit,TActivatorData,TSingleRegistrationStyle](IRegistrationBuilder`3 builder)
+   at Autofac.Builder.RegistrationBuilder.RegisterSingleComponent[TLimit,TActivatorData,TSingleRegistrationStyle](IComponentRegistryBuilder cr, IRegistrationBuilder`3 builder)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass38_0`1.<RegisterType>b__0(IComponentRegistryBuilder cr)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at TestProject.Program.Main(String[] args) in C:\Users\GhoSt\source\repos\TestProject\TestProject\Program.cs:line 18
+2021-03-08 16:01:59.666 +03:00 [INF] WebApi Starting...
+2021-03-08 16:02:01.565 +03:00 [ERR] System.ArgumentException: The type 'Core.DataSecurity.Encryption' is not assignable to service 'Core.DataSecurity.IEncryption'.
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration(Guid id, RegistrationData data, IInstanceActivator activator, IResolvePipelineBuilder pipelineBuilder, Service[] services, IComponentRegistration target)
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration[TLimit,TActivatorData,TSingleRegistrationStyle](IRegistrationBuilder`3 builder)
+   at Autofac.Builder.RegistrationBuilder.RegisterSingleComponent[TLimit,TActivatorData,TSingleRegistrationStyle](IComponentRegistryBuilder cr, IRegistrationBuilder`3 builder)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass38_0`1.<RegisterType>b__0(IComponentRegistryBuilder cr)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at TestProject.Program.Main(String[] args) in C:\Users\GhoSt\source\repos\TestProject\TestProject\Program.cs:line 18
+2021-03-08 16:56:32.584 +03:00 [INF] WebApi Starting...
+2021-03-08 16:56:33.716 +03:00 [ERR] System.ArgumentException: The type 'Core.DataSecurity.Encryption' is not assignable to service 'Core.DataSecurity.IEncryption'.
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration(Guid id, RegistrationData data, IInstanceActivator activator, IResolvePipelineBuilder pipelineBuilder, Service[] services, IComponentRegistration target)
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration[TLimit,TActivatorData,TSingleRegistrationStyle](IRegistrationBuilder`3 builder)
+   at Autofac.Builder.RegistrationBuilder.RegisterSingleComponent[TLimit,TActivatorData,TSingleRegistrationStyle](IComponentRegistryBuilder cr, IRegistrationBuilder`3 builder)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass38_0`1.<RegisterType>b__0(IComponentRegistryBuilder cr)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at TestProject.Program.Main(String[] args) in C:\Users\GhoSt\source\repos\TestProject\TestProject\Program.cs:line 18
+2021-03-08 16:58:12.991 +03:00 [INF] WebApi Starting...
+2021-03-08 16:58:14.352 +03:00 [ERR] System.ArgumentException: The type 'Core.DataSecurity.Encryption' is not assignable to service 'Core.DataSecurity.IEncryption'.
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration(Guid id, RegistrationData data, IInstanceActivator activator, IResolvePipelineBuilder pipelineBuilder, Service[] services, IComponentRegistration target)
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration[TLimit,TActivatorData,TSingleRegistrationStyle](IRegistrationBuilder`3 builder)
+   at Autofac.Builder.RegistrationBuilder.RegisterSingleComponent[TLimit,TActivatorData,TSingleRegistrationStyle](IComponentRegistryBuilder cr, IRegistrationBuilder`3 builder)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass38_0`1.<RegisterType>b__0(IComponentRegistryBuilder cr)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at TestProject.Program.Main(String[] args) in C:\Users\GhoSt\source\repos\TestProject\TestProject\Program.cs:line 18
+2021-03-08 16:58:46.243 +03:00 [INF] WebApi Starting...
+2021-03-08 16:58:47.434 +03:00 [ERR] System.ArgumentException: The type 'Core.DataSecurity.Encryption' is not assignable to service 'Core.DataSecurity.IEncryption'.
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration(Guid id, RegistrationData data, IInstanceActivator activator, IResolvePipelineBuilder pipelineBuilder, Service[] services, IComponentRegistration target)
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration[TLimit,TActivatorData,TSingleRegistrationStyle](IRegistrationBuilder`3 builder)
+   at Autofac.Builder.RegistrationBuilder.RegisterSingleComponent[TLimit,TActivatorData,TSingleRegistrationStyle](IComponentRegistryBuilder cr, IRegistrationBuilder`3 builder)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass38_0`1.<RegisterType>b__0(IComponentRegistryBuilder cr)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at TestProject.Program.Main(String[] args) in C:\Users\GhoSt\source\repos\TestProject\TestProject\Program.cs:line 18
+2021-03-08 17:01:37.823 +03:00 [INF] WebApi Starting...
+2021-03-08 17:01:39.166 +03:00 [ERR] System.ArgumentException: The type 'Core.DataSecurity.Encryption' is not assignable to service 'Core.DataSecurity.IEncryption'.
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration(Guid id, RegistrationData data, IInstanceActivator activator, IResolvePipelineBuilder pipelineBuilder, Service[] services, IComponentRegistration target)
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration[TLimit,TActivatorData,TSingleRegistrationStyle](IRegistrationBuilder`3 builder)
+   at Autofac.Builder.RegistrationBuilder.RegisterSingleComponent[TLimit,TActivatorData,TSingleRegistrationStyle](IComponentRegistryBuilder cr, IRegistrationBuilder`3 builder)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass39_0.<RegisterType>b__0(IComponentRegistryBuilder cr)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at TestProject.Program.Main(String[] args) in C:\Users\GhoSt\source\repos\TestProject\TestProject\Program.cs:line 18
+2021-03-08 17:13:44.658 +03:00 [INF] WebApi Starting...
+2021-03-08 17:13:46.073 +03:00 [ERR] System.ArgumentException: The type 'Core.DataSecurity.Encryption' is not assignable to service 'Core.DataSecurity.IEncryption'.
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration(Guid id, RegistrationData data, IInstanceActivator activator, IResolvePipelineBuilder pipelineBuilder, Service[] services, IComponentRegistration target)
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration[TLimit,TActivatorData,TSingleRegistrationStyle](IRegistrationBuilder`3 builder)
+   at Autofac.Builder.RegistrationBuilder.RegisterSingleComponent[TLimit,TActivatorData,TSingleRegistrationStyle](IComponentRegistryBuilder cr, IRegistrationBuilder`3 builder)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass38_0`1.<RegisterType>b__0(IComponentRegistryBuilder cr)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at TestProject.Program.Main(String[] args) in C:\Users\GhoSt\source\repos\TestProject\TestProject\Program.cs:line 18
+2021-03-08 17:14:41.679 +03:00 [INF] WebApi Starting...
+2021-03-08 17:14:43.553 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 155.2180 ms
+2021-03-08 17:14:44.196 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 101.4220 ms
+2021-03-08 17:14:52.991 +03:00 [INF] HTTP GET /WeatherForecast/CacheEndpoint responded 200 in 181.6885 ms
+2021-03-08 17:14:57.195 +03:00 [INF] HTTP GET /WeatherForecast/CacheEndpoint responded 200 in 1.4475 ms
+2021-03-08 17:15:06.186 +03:00 [INF] WebApi Starting...
+2021-03-08 17:15:08.427 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 126.7477 ms
+2021-03-08 17:15:08.921 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 106.5990 ms
+2021-03-08 17:18:39.226 +03:00 [INF] WebApi Starting...
+2021-03-08 17:18:41.595 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 297.7599 ms
+2021-03-08 17:18:42.233 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 123.8386 ms
+2021-03-08 17:20:48.976 +03:00 [INF] WebApi Starting...
+2021-03-08 17:20:51.431 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 149.2433 ms
+2021-03-08 17:20:51.990 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 105.9011 ms
+2021-03-08 17:21:10.528 +03:00 [INF] HTTP POST /WeatherForecast/CryptData?cryptedText=hasan responded 200 in 225.2535 ms
+2021-03-08 17:21:17.464 +03:00 [INF] HTTP POST /WeatherForecast/DeCryptData?cryptedText=evA2BbUJ%2F2WLzD1sSDTcCA%3D%3D responded 200 in 7.1227 ms
+2021-03-08 17:21:23.172 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Core.DataSecurity.CryptoManager.DecrypteAES(String cipherText) in C:\Users\GhoSt\source\repos\TestProject\Core\Security\DataSecurity\Encryption.cs:line 29
+   at TestProject.Controllers.WeatherForecastController.DeCryptData(String cryptedText) in C:\Users\GhoSt\source\repos\TestProject\TestProject\Controllers\WeatherForecastController.cs:line 77
+   at lambda_method361(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-08 17:21:23.437 +03:00 [ERR] {"UserId":null,"Path":"/WeatherForecast/DeCryptData","Method":"POST","StatusCode":500,"ErrorMessage":"The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.","DateCreated":"2021-03-08T17:21:23.2709644+03:00"}
+2021-03-08 17:21:23.442 +03:00 [ERR] HTTP POST /WeatherForecast/DeCryptData?cryptedText=evA2BbUJ%2F2WLzD1sSDTcCA%3D%3Ds responded 500 in 3468.4517 ms
+2021-03-08 17:26:55.391 +03:00 [INF] WebApi Starting...
+2021-03-08 17:26:58.073 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 110.2644 ms
+2021-03-08 17:26:58.636 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 119.5359 ms
+2021-03-08 17:27:02.969 +03:00 [INF] HTTP HEAD https://localhost:44350/ responded 404 in 3.5425 ms
+2021-03-08 17:28:16.236 +03:00 [INF] WebApi Starting...
+2021-03-08 17:28:18.008 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 120.0490 ms
+2021-03-08 17:28:18.484 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 91.8228 ms
+2021-03-08 17:29:11.115 +03:00 [INF] WebApi Starting...
+2021-03-08 17:29:12.928 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 166.7341 ms
+2021-03-08 17:29:13.416 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 95.2194 ms
+2021-03-08 17:36:42.877 +03:00 [INF] WebApi Starting...
+2021-03-08 17:36:44.737 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 123.2827 ms
+2021-03-08 17:36:45.233 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 93.3822 ms
+2021-03-08 17:37:19.748 +03:00 [INF] WebApi Starting...
+2021-03-08 17:37:21.601 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 123.4228 ms
+2021-03-08 17:37:22.081 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 93.2038 ms
+2021-03-08 17:37:29.173 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 5654.5072 ms
+2021-03-08 17:37:40.672 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 10.5145 ms
+2021-03-08 17:38:27.123 +03:00 [INF] WebApi Starting...
+2021-03-08 17:38:28.938 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 118.7547 ms
+2021-03-08 17:38:29.485 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 113.7643 ms
+2021-03-08 17:38:34.418 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 345.7038 ms
+2021-03-08 17:38:37.607 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 3.1853 ms
+2021-03-08 17:38:39.594 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 1.6429 ms
+2021-03-08 17:38:39.982 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 1.2209 ms
+2021-03-08 17:38:40.184 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 3.3489 ms
+2021-03-08 17:38:40.372 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 1.2435 ms
+2021-03-08 17:38:54.155 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 1.5352 ms
+2021-03-08 17:38:54.359 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 1.2798 ms
+2021-03-08 17:38:54.540 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 1.2844 ms
+2021-03-08 17:38:54.690 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 0.8457 ms
+2021-03-08 17:38:54.856 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 0.9976 ms
+2021-03-08 17:39:10.432 +03:00 [INF] WebApi Starting...
+2021-03-08 17:39:12.233 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 118.1519 ms
+2021-03-08 17:39:12.716 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 109.2667 ms
+2021-03-08 17:39:16.908 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 281.3646 ms
+2021-03-08 17:39:22.716 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 2.0840 ms
+2021-03-08 17:39:24.873 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 1.5257 ms
+2021-03-08 17:39:25.086 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 5.4716 ms
+2021-03-08 17:39:25.252 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 1.0233 ms
+2021-03-08 17:39:36.883 +03:00 [INF] WebApi Starting...
+2021-03-08 17:39:38.811 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 187.9155 ms
+2021-03-08 17:39:39.092 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 471.5909 ms
+2021-03-08 17:39:39.338 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 91.1605 ms
+2021-03-08 17:41:02.106 +03:00 [INF] WebApi Starting...
+2021-03-08 17:41:03.898 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 153.8017 ms
+2021-03-08 17:41:04.582 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 132.1667 ms
+2021-03-08 17:41:36.015 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 25193.3275 ms
+2021-03-08 17:41:59.819 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 204 in 10524.2218 ms
+2021-03-08 17:42:13.669 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 204 in 8787.2822 ms
+2021-03-08 17:42:17.940 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 204 in 2012.0148 ms
+2021-03-08 17:42:56.553 +03:00 [INF] WebApi Starting...
+2021-03-08 17:42:58.520 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 120.2316 ms
+2021-03-08 17:43:32.267 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 204 in 26068.9471 ms
+2021-03-08 17:43:56.740 +03:00 [INF] WebApi Starting...
+2021-03-08 17:43:58.539 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 109.6856 ms
+2021-03-08 17:43:58.983 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 97.6442 ms
+2021-03-08 17:44:05.355 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 400 in 287.1571 ms
+2021-03-08 17:44:19.045 +03:00 [INF] WebApi Starting...
+2021-03-08 17:44:20.995 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 166.5140 ms
+2021-03-08 17:44:24.756 +03:00 [INF] WebApi Starting...
+2021-03-08 17:44:26.606 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 115.2978 ms
+2021-03-08 17:44:55.257 +03:00 [INF] WebApi Starting...
+2021-03-08 17:44:57.169 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 110.0431 ms
+2021-03-08 17:44:57.625 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 92.9191 ms
+2021-03-08 17:45:12.331 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 204 in 10107.6936 ms
+2021-03-08 17:46:21.073 +03:00 [INF] WebApi Starting...
+2021-03-08 17:46:22.936 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 117.2071 ms
+2021-03-08 17:51:03.231 +03:00 [INF] WebApi Starting...
+2021-03-08 17:51:05.034 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 120.0387 ms
+2021-03-08 17:51:05.574 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 116.1443 ms
+2021-03-08 17:51:36.527 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 200 in 16462.0855 ms
+2021-03-08 18:18:28.669 +03:00 [INF] WebApi Starting...
+2021-03-08 18:18:30.176 +03:00 [ERR] System.ArgumentException: The service 'Core.Application.Repository.EF.EfRepository`1' is not assignable from implementation type 'Core.Application.Interfaces.IAsyncRepository`1[T]'.
+   at Autofac.Features.OpenGenerics.OpenGenericServiceBinder.EnforceBindable(Type implementationType, IEnumerable`1 services)
+   at Autofac.Features.OpenGenerics.OpenGenericRegistrationSource..ctor(RegistrationData registrationData, IResolvePipelineBuilder existingPipelineBuilder, ReflectionActivatorData activatorData)
+   at Autofac.Features.OpenGenerics.OpenGenericRegistrationExtensions.<>c__DisplayClass0_0.<RegisterGeneric>b__0(IComponentRegistryBuilder cr)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at TestProject.Program.Main(String[] args) in C:\Users\GhoSt\Desktop\projeler\emodayazilim\CoreLibrary\TestProject\Program.cs:line 18
+2021-03-08 18:19:02.119 +03:00 [INF] WebApi Starting...
+2021-03-08 18:19:04.163 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 118.8603 ms
+2021-03-08 18:19:04.675 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 94.4786 ms
+2021-03-08 18:22:40.427 +03:00 [INF] WebApi Starting...
+2021-03-08 18:22:42.268 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 112.7756 ms
+2021-03-08 18:22:42.817 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 101.0568 ms
+2021-03-08 18:35:52.632 +03:00 [INF] WebApi Starting...
+2021-03-08 18:35:54.483 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 125.5732 ms
+2021-03-08 18:35:54.989 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 125.1476 ms
+2021-03-08 18:36:10.987 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Reflection.AmbiguousMatchException: Ambiguous match found.
+   at System.RuntimeType.GetMethodImplCommon(String name, Int32 genericParameterCount, BindingFlags bindingAttr, Binder binder, CallingConventions callConv, Type[] types, ParameterModifier[] modifiers)
+   at System.RuntimeType.GetMethodImpl(String name, BindingFlags bindingAttr, Binder binder, CallingConventions callConv, Type[] types, ParameterModifier[] modifiers)
+   at System.Type.GetMethod(String name, BindingFlags bindingAttr)
+   at System.Type.GetMethod(String name)
+   at Core.Intercepters.AspectInterceptorSelector.SelectInterceptors(Type type, MethodInfo method, IInterceptor[] interceptors) in C:\Users\GhoSt\Desktop\projeler\emodayazilim\CoreLibrary\Core\Intercepters\AspectInterceptorSelector.cs:line 16
+   at Castle.Proxies.IValidator`1Proxy.Validate(IValidationContext context)
+   at FluentValidation.AspNetCore.FluentValidationModelValidator.Validate(ModelValidationContext mvContext) in C:\Projects\FluentValidation\src\FluentValidation.AspNetCore\FluentValidationModelValidatorProvider.cs:line 123
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.ValidateNode()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Validate(ModelMetadata metadata, String key, Object model, Boolean alwaysValidateAtTopLevel, Object container)
+   at FluentValidation.AspNetCore.FluentValidationVisitor.<>n__1(ModelMetadata metadata, String key, Object model, Boolean alwaysValidateAtTopLevel, Object container)
+   at FluentValidation.AspNetCore.FluentValidationVisitor.<>c__DisplayClass2_0.<Validate>g__BaseValidate|0() in C:\Projects\FluentValidation\src\FluentValidation.AspNetCore\FluentValidationVisitor.cs:line 49
+   at FluentValidation.AspNetCore.FluentValidationVisitor.ValidateInternal(ModelMetadata metadata, String key, Object model, Func`1 continuation) in C:\Projects\FluentValidation\src\FluentValidation.AspNetCore\FluentValidationVisitor.cs:line 67
+   at FluentValidation.AspNetCore.FluentValidationVisitor.Validate(ModelMetadata metadata, String key, Object model, Boolean alwaysValidateAtTopLevel, Object container) in C:\Projects\FluentValidation\src\FluentValidation.AspNetCore\FluentValidationVisitor.cs:line 51
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-08 18:36:11.217 +03:00 [ERR] {"UserId":null,"Path":"/WeatherForecast/FluentValidator","Method":"POST","StatusCode":500,"ErrorMessage":"Ambiguous match found.","DateCreated":"2021-03-08T18:36:11.0846158+03:00"}
+2021-03-08 18:36:11.224 +03:00 [ERR] HTTP POST /WeatherForecast/FluentValidator responded 500 in 5240.1864 ms
+2021-03-08 18:39:25.120 +03:00 [INF] WebApi Starting...
+2021-03-08 18:39:26.888 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 255.9340 ms
+2021-03-08 18:39:41.291 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Reflection.AmbiguousMatchException: Ambiguous match found.
+   at System.RuntimeType.GetMethodImplCommon(String name, Int32 genericParameterCount, BindingFlags bindingAttr, Binder binder, CallingConventions callConv, Type[] types, ParameterModifier[] modifiers)
+   at System.RuntimeType.GetMethodImpl(String name, BindingFlags bindingAttr, Binder binder, CallingConventions callConv, Type[] types, ParameterModifier[] modifiers)
+   at System.Type.GetMethod(String name, BindingFlags bindingAttr)
+   at System.Type.GetMethod(String name)
+   at Core.Intercepters.AspectInterceptorSelector.SelectInterceptors(Type type, MethodInfo method, IInterceptor[] interceptors) in C:\Users\GhoSt\Desktop\projeler\emodayazilim\CoreLibrary\Core\Intercepters\AspectInterceptorSelector.cs:line 16
+   at Castle.Proxies.IValidator`1Proxy.Validate(IValidationContext context)
+   at FluentValidation.AspNetCore.FluentValidationModelValidator.Validate(ModelValidationContext mvContext) in C:\Projects\FluentValidation\src\FluentValidation.AspNetCore\FluentValidationModelValidatorProvider.cs:line 123
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.ValidateNode()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Validate(ModelMetadata metadata, String key, Object model, Boolean alwaysValidateAtTopLevel, Object container)
+   at FluentValidation.AspNetCore.FluentValidationVisitor.<>n__1(ModelMetadata metadata, String key, Object model, Boolean alwaysValidateAtTopLevel, Object container)
+   at FluentValidation.AspNetCore.FluentValidationVisitor.<>c__DisplayClass2_0.<Validate>g__BaseValidate|0() in C:\Projects\FluentValidation\src\FluentValidation.AspNetCore\FluentValidationVisitor.cs:line 49
+   at FluentValidation.AspNetCore.FluentValidationVisitor.ValidateInternal(ModelMetadata metadata, String key, Object model, Func`1 continuation) in C:\Projects\FluentValidation\src\FluentValidation.AspNetCore\FluentValidationVisitor.cs:line 67
+   at FluentValidation.AspNetCore.FluentValidationVisitor.Validate(ModelMetadata metadata, String key, Object model, Boolean alwaysValidateAtTopLevel, Object container) in C:\Projects\FluentValidation\src\FluentValidation.AspNetCore\FluentValidationVisitor.cs:line 51
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-08 18:39:41.390 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 12011.6336 ms
+2021-03-08 18:39:41.505 +03:00 [ERR] {"UserId":null,"Path":"/WeatherForecast/FluentValidator","Method":"POST","StatusCode":500,"ErrorMessage":"Ambiguous match found.","DateCreated":"2021-03-08T18:39:41.3774979+03:00"}
+2021-03-08 18:39:41.511 +03:00 [ERR] HTTP POST /WeatherForecast/FluentValidator responded 500 in 14880.7227 ms
+2021-03-08 18:44:32.081 +03:00 [INF] WebApi Starting...
+2021-03-08 18:44:34.123 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 122.5317 ms
+2021-03-08 18:44:34.660 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 126.2734 ms
+2021-03-08 18:46:01.701 +03:00 [INF] WebApi Starting...
+2021-03-08 18:46:03.571 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 115.3195 ms
+2021-03-08 18:46:04.052 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 104.5964 ms
+2021-03-08 18:48:02.619 +03:00 [INF] WebApi Starting...
+2021-03-08 18:48:04.467 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 117.0499 ms
+2021-03-08 18:48:04.957 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 98.7261 ms
+2021-03-08 18:48:27.452 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 200 in 20645.5798 ms
+2021-03-08 18:49:08.432 +03:00 [INF] WebApi Starting...
+2021-03-08 18:49:10.415 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 160.7897 ms
+2021-03-08 18:49:20.445 +03:00 [INF] WebApi Starting...
+2021-03-08 18:49:22.064 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 1077.0931 ms
+2021-03-08 18:49:22.079 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 138.2235 ms
+2021-03-08 18:49:30.122 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 1668.0422 ms
+2021-03-08 18:49:30.134 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 200 in 9149.1104 ms
+2021-03-08 18:49:39.147 +03:00 [INF] HTTP POST /WeatherForecast/FluentValidator responded 200 in 2506.1598 ms
+2021-03-08 18:50:13.605 +03:00 [INF] WebApi Starting...
+2021-03-08 18:50:15.605 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 170.9119 ms
+2021-03-08 18:50:58.765 +03:00 [INF] WebApi Starting...
+2021-03-08 18:51:00.759 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 105.7599 ms
+2021-03-08 18:51:01.245 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 98.6637 ms
+2021-03-08 18:51:59.673 +03:00 [INF] WebApi Starting...
+2021-03-08 18:52:01.210 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 243.9283 ms
+2021-03-08 18:52:26.384 +03:00 [INF] WebApi Starting...
+2021-03-08 18:52:28.183 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 176.0901 ms
+2021-03-08 18:52:28.191 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 186.6805 ms
+2021-03-08 18:52:28.751 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 8.1888 ms
+2021-03-08 18:52:49.272 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Core.Caching.MemoryCacheManager.IsAdd(String key) in C:\Users\GhoSt\Desktop\projeler\emodayazilim\CoreLibrary\Core\Caching\MemoryCacheManager.cs:line 42
+   at Castle.Proxies.Invocations.ICacheManager_IsAdd.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.ICacheManagerProxy.IsAdd(String key)
+   at Core.Caching.CacheAspect.Intercept(IInvocation invocation) in C:\Users\GhoSt\Desktop\projeler\emodayazilim\CoreLibrary\Core\Caching\Intercepters\CacheAspect.cs:line 29
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Core.Intercepters.MethodInterception.Intercept(IInvocation invocation) in C:\Users\GhoSt\Desktop\projeler\emodayazilim\CoreLibrary\Core\Intercepters\MethodInterception.cs:line 19
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.ITestModelValidatorProxy.Check(DataModel model)
+   at TestProject.Controllers.WeatherForecastController.FluentValidator(DataModel model) in C:\Users\GhoSt\Desktop\projeler\emodayazilim\CoreLibrary\TestProject\Controllers\WeatherForecastController.cs:line 65
+   at lambda_method360(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-08 18:52:49.471 +03:00 [ERR] {"UserId":null,"Path":"/WeatherForecast/FluentValidator","Method":"POST","StatusCode":500,"ErrorMessage":"Object reference not set to an instance of an object.","DateCreated":"2021-03-08T18:52:49.3447749+03:00"}
+2021-03-08 18:52:49.476 +03:00 [ERR] HTTP POST /WeatherForecast/FluentValidator responded 500 in 18787.6743 ms
+2021-03-08 18:53:02.545 +03:00 [INF] WebApi Starting...
+2021-03-08 18:53:03.361 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Core.Caching.MemoryCacheManager.IsAdd(String key) in C:\Users\GhoSt\Desktop\projeler\emodayazilim\CoreLibrary\Core\Caching\MemoryCacheManager.cs:line 42
+   at Castle.Proxies.Invocations.ICacheManager_IsAdd.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.ICacheManagerProxy.IsAdd(String key)
+   at Core.Caching.CacheAspect.Intercept(IInvocation invocation) in C:\Users\GhoSt\Desktop\projeler\emodayazilim\CoreLibrary\Core\Caching\Intercepters\CacheAspect.cs:line 29
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Core.Intercepters.MethodInterception.Intercept(IInvocation invocation) in C:\Users\GhoSt\Desktop\projeler\emodayazilim\CoreLibrary\Core\Intercepters\MethodInterception.cs:line 19
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.ITestModelValidatorProxy.Check(DataModel model)
+   at TestProject.Controllers.WeatherForecastController.FluentValidator(DataModel model) in C:\Users\GhoSt\Desktop\projeler\emodayazilim\CoreLibrary\TestProject\Controllers\WeatherForecastController.cs:line 65
+   at lambda_method360(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-08 18:53:04.417 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 147.3104 ms
+2021-03-08 18:53:04.455 +03:00 [ERR] {"UserId":null,"Path":"/WeatherForecast/FluentValidator","Method":"POST","StatusCode":500,"ErrorMessage":"Object reference not set to an instance of an object.","DateCreated":"2021-03-08T18:53:04.2683155+03:00"}
+2021-03-08 18:53:04.469 +03:00 [ERR] HTTP POST /WeatherForecast/FluentValidator responded 500 in 1343.2500 ms
+2021-03-08 18:53:05.101 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 123.4443 ms
+2021-03-08 18:53:48.415 +03:00 [INF] HTTP GET /WeatherForecast/AutofacEndpoint responded 200 in 9.6149 ms
+2021-03-08 18:55:09.434 +03:00 [INF] WebApi Starting...
+2021-03-08 18:55:10.996 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 197.5788 ms
+2021-03-08 18:56:00.593 +03:00 [INF] WebApi Starting...
+2021-03-08 18:56:02.661 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 180.9901 ms
+2021-03-08 19:00:58.377 +03:00 [INF] WebApi Starting...
+2021-03-08 19:01:00.240 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 214.1424 ms
+2021-03-08 19:01:00.253 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 231.6424 ms
+2021-03-08 19:02:30.733 +03:00 [INF] WebApi Starting...
+2021-03-08 19:02:32.658 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 113.6533 ms
+2021-03-08 19:02:33.145 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 95.0540 ms
+2021-03-08 19:03:38.062 +03:00 [INF] WebApi Starting...
+2021-03-08 19:03:40.169 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 189.4885 ms

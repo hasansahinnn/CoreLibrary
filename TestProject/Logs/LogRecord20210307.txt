@@ -1,0 +1,146 @@
+2021-03-07 21:26:00.423 +03:00 [INF] WebApi Starting...
+2021-03-07 21:26:06.420 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Error taked
+   at TestProject.Controllers.WeatherForecastController.Get() in C:\Users\GhoSt\source\repos\TestProject\TestProject\Controllers\WeatherForecastController.cs:line 36
+   at lambda_method299(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-07 21:26:06.677 +03:00 [ERR] {"UserId":null,"Path":"/WeatherForecast","Method":"GET","StatusCode":500,"ErrorMessage":"Error taked","DateCreated":"2021-03-07T21:26:06.5110756+03:00"}
+2021-03-07 21:26:06.683 +03:00 [ERR] HTTP GET /WeatherForecast responded 500 in 1798.7255 ms
+2021-03-07 21:27:21.789 +03:00 [INF] WebApi Starting...
+2021-03-07 21:27:30.071 +03:00 [ERR] Error
+2021-03-07 21:27:30.076 +03:00 [INF] LogInformation
+2021-03-07 21:27:30.085 +03:00 [INF] HTTP GET /WeatherForecast/Logs responded 404 in 56.5900 ms
+2021-03-07 21:28:19.253 +03:00 [ERR] Error
+2021-03-07 21:28:19.256 +03:00 [INF] LogInformation
+2021-03-07 21:28:19.259 +03:00 [INF] HTTP GET /WeatherForecast/Logs responded 404 in 9.4485 ms
+2021-03-07 21:30:02.106 +03:00 [INF] WebApi Starting...
+2021-03-07 21:30:05.547 +03:00 [DBG] debug
+2021-03-07 21:30:05.551 +03:00 [ERR] Error
+2021-03-07 21:30:05.555 +03:00 [INF] LogInformation
+2021-03-07 21:30:05.563 +03:00 [INF] HTTP GET /WeatherForecast/Logs responded 404 in 58.9314 ms
+2021-03-07 22:12:05.842 +03:00 [INF] WebApi Starting...
+2021-03-07 22:12:22.506 +03:00 [INF] HTTP GET /WeatherForecast/CacheEndpoint responded 200 in 95.9398 ms
+2021-03-07 22:12:34.989 +03:00 [INF] WebApi Starting...
+2021-03-07 22:13:07.999 +03:00 [INF] WebApi Starting...
+2021-03-07 22:13:24.890 +03:00 [INF] HTTP GET /WeatherForecast/CacheEndpoint responded 200 in 77.9948 ms
+2021-03-07 22:13:29.300 +03:00 [INF] HTTP GET /WeatherForecast/CacheEndpoint responded 200 in 5.4428 ms
+2021-03-07 22:13:30.389 +03:00 [INF] HTTP GET /WeatherForecast/CacheEndpoint responded 200 in 3.0147 ms
+2021-03-07 22:13:35.263 +03:00 [INF] HTTP GET /WeatherForecast/CacheEndpoint responded 200 in 0.3700 ms
+2021-03-07 22:13:36.310 +03:00 [INF] HTTP GET /WeatherForecast/CacheEndpoint responded 200 in 0.6290 ms
+2021-03-07 22:13:41.089 +03:00 [INF] HTTP GET /WeatherForecast/CacheEndpoint responded 200 in 0.3207 ms
+2021-03-07 22:13:42.235 +03:00 [INF] HTTP GET /WeatherForecast/CacheEndpoint responded 200 in 0.5901 ms
+2021-03-07 22:13:47.644 +03:00 [INF] HTTP GET /WeatherForecast/CacheEndpoint responded 200 in 0.5488 ms
+2021-03-07 22:13:52.268 +03:00 [INF] HTTP GET /WeatherForecast/CacheEndpoint responded 200 in 0.3652 ms
+2021-03-07 22:13:56.642 +03:00 [INF] HTTP GET /WeatherForecast/CacheEndpoint responded 200 in 0.5176 ms
+2021-03-07 22:14:03.514 +03:00 [INF] HTTP GET /WeatherForecast/CacheEndpoint responded 200 in 0.5948 ms
+2021-03-07 22:14:24.288 +03:00 [INF] WebApi Starting...
+2021-03-07 22:14:35.585 +03:00 [INF] HTTP GET /WeatherForecast/CacheEndpoint responded 200 in 78.5598 ms
+2021-03-07 22:14:40.202 +03:00 [INF] HTTP GET /WeatherForecast/CacheEndpoint responded 200 in 5.2389 ms
+2021-03-07 22:14:41.345 +03:00 [INF] HTTP GET /WeatherForecast/CacheEndpoint responded 200 in 2.7030 ms
+2021-03-07 22:14:58.939 +03:00 [INF] WebApi Starting...
+2021-03-07 22:15:20.354 +03:00 [INF] HTTP GET /WeatherForecast/CacheEndpoint responded 200 in 71.4498 ms
+2021-03-07 22:15:25.035 +03:00 [INF] HTTP GET /WeatherForecast/CacheEndpoint responded 200 in 2.5676 ms
+2021-03-07 22:33:26.959 +03:00 [INF] WebApi Starting...
+2021-03-07 22:33:31.958 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Core.AutoFac.Models.ITestModel' while attempting to activate 'TestProject.Controllers.WeatherForecastController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method307(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-07 22:33:32.160 +03:00 [ERR] {"UserId":null,"Path":"/WeatherForecast/AutofacEndpoint","Method":"GET","StatusCode":500,"ErrorMessage":"Unable to resolve service for type 'Core.AutoFac.Models.ITestModel' while attempting to activate 'TestProject.Controllers.WeatherForecastController'.","DateCreated":"2021-03-07T22:33:32.0190149+03:00"}
+2021-03-07 22:33:32.176 +03:00 [ERR] HTTP GET /WeatherForecast/AutofacEndpoint responded 500 in 279.0512 ms
+2021-03-07 22:48:50.903 +03:00 [INF] WebApi Starting...
+2021-03-07 22:50:22.914 +03:00 [INF] WebApi Starting...
+2021-03-07 22:50:53.048 +03:00 [INF] WebApi Starting...
+2021-03-07 22:51:05.925 +03:00 [INF] WebApi Starting...
+2021-03-07 22:51:52.393 +03:00 [INF] WebApi Starting...
+2021-03-07 22:51:56.908 +03:00 [ERR] Build() or Update() can only be called once on a ContainerBuilder.
+2021-03-07 22:55:09.845 +03:00 [INF] WebApi Starting...
+2021-03-07 23:01:48.979 +03:00 [INF] WebApi Starting...
+2021-03-07 23:09:00.368 +03:00 [INF] WebApi Starting...
+2021-03-07 23:09:11.354 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Core.AutoFac.Models.ITestModel' while attempting to activate 'TestProject.Controllers.WeatherForecastController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method308(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-07 23:09:11.611 +03:00 [ERR] {"UserId":null,"Path":"/WeatherForecast/AutofacEndpoint","Method":"GET","StatusCode":500,"ErrorMessage":"Unable to resolve service for type 'Core.AutoFac.Models.ITestModel' while attempting to activate 'TestProject.Controllers.WeatherForecastController'.","DateCreated":"2021-03-07T23:09:11.4556724+03:00"}
+2021-03-07 23:09:11.627 +03:00 [ERR] HTTP GET /WeatherForecast/AutofacEndpoint responded 500 in 352.6078 ms
+2021-03-07 23:16:30.438 +03:00 [INF] WebApi Starting...
+2021-03-07 23:16:31.427 +03:00 [ERR] ConfigureServices returning an System.IServiceProvider isn't supported.
+2021-03-07 23:23:02.951 +03:00 [INF] WebApi Starting...
+2021-03-07 23:23:04.058 +03:00 [ERR] System.InvalidOperationException: Build() or Update() can only be called once on a ContainerBuilder.
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at TestProject.Program.Main(String[] args) in C:\Users\GhoSt\source\repos\TestProject\TestProject\Program.cs:line 24
+2021-03-07 23:23:34.378 +03:00 [INF] WebApi Starting...
+2021-03-07 23:23:35.764 +03:00 [ERR] System.InvalidOperationException: Build() or Update() can only be called once on a ContainerBuilder.
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at TestProject.Program.Main(String[] args) in C:\Users\GhoSt\source\repos\TestProject\TestProject\Program.cs:line 24
+2021-03-07 23:23:58.445 +03:00 [INF] WebApi Starting...
+2021-03-07 23:23:59.609 +03:00 [ERR] System.InvalidOperationException: Build() or Update() can only be called once on a ContainerBuilder.
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at TestProject.Program.Main(String[] args) in C:\Users\GhoSt\source\repos\TestProject\TestProject\Program.cs:line 24
+2021-03-07 23:24:34.535 +03:00 [INF] WebApi Starting...
+2021-03-07 23:24:39.558 +03:00 [INF] HTTP GET /WeatherForecast/AutofacEndpoint responded 200 in 70.0687 ms
+2021-03-07 23:38:35.060 +03:00 [INF] WebApi Starting...
+2021-03-07 23:38:36.206 +03:00 [ERR] System.InvalidOperationException: The ConfigureContainer method must take only one parameter.
+   at Microsoft.AspNetCore.Hosting.ConfigureContainerBuilder.GetContainerType()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at TestProject.Program.Main(String[] args) in C:\Users\GhoSt\source\repos\TestProject\TestProject\Program.cs:line 24
+2021-03-07 23:59:20.919 +03:00 [INF] WebApi Starting...

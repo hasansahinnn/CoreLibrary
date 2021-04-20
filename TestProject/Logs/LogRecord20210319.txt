@@ -1,0 +1,477 @@
+2021-03-19 00:28:41.864 +03:00 [INF] WebApi Starting...
+2021-03-19 00:28:43.100 +03:00 [ERR] System.ArgumentNullException: Value cannot be null. (Parameter 'serviceType')
+   at Autofac.Core.TypedService..ctor(Type serviceType)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass7_0`3.<As>b__0(Type t)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass6_0`3.<As>b__0(Type t)
+   at Autofac.Features.Scanning.ScanningRegistrationExtensions.<>c__DisplayClass8_0`3.<As>b__0(Type t, IRegistrationBuilder`3 rb)
+   at Autofac.Features.Scanning.ScanningRegistrationExtensions.ScanTypes(IEnumerable`1 types, IComponentRegistryBuilder cr, IRegistrationBuilder`3 rb)
+   at Autofac.Features.Scanning.ScanningRegistrationExtensions.ScanAssemblies(IEnumerable`1 assemblies, IComponentRegistryBuilder cr, IRegistrationBuilder`3 rb)
+   at Autofac.Features.Scanning.ScanningRegistrationExtensions.<>c__DisplayClass0_0.<RegisterAssemblyTypes>b__0(IComponentRegistryBuilder cr)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at TestProject.Program.Main(String[] args) in C:\Users\GhoSt\Desktop\projeler\emodayazilim\CoreLibrary\TestProject\Program.cs:line 20
+2021-03-19 00:29:40.434 +03:00 [INF] WebApi Starting...
+2021-03-19 00:29:41.760 +03:00 [ERR] System.ArgumentNullException: Value cannot be null. (Parameter 'serviceType')
+   at Autofac.Core.TypedService..ctor(Type serviceType)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass7_0`3.<As>b__0(Type t)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass6_0`3.<As>b__0(Type t)
+   at Autofac.Features.Scanning.ScanningRegistrationExtensions.<>c__DisplayClass8_0`3.<As>b__0(Type t, IRegistrationBuilder`3 rb)
+   at Autofac.Features.Scanning.ScanningRegistrationExtensions.ScanTypes(IEnumerable`1 types, IComponentRegistryBuilder cr, IRegistrationBuilder`3 rb)
+   at Autofac.Features.Scanning.ScanningRegistrationExtensions.ScanAssemblies(IEnumerable`1 assemblies, IComponentRegistryBuilder cr, IRegistrationBuilder`3 rb)
+   at Autofac.Features.Scanning.ScanningRegistrationExtensions.<>c__DisplayClass0_0.<RegisterAssemblyTypes>b__0(IComponentRegistryBuilder cr)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at TestProject.Program.Main(String[] args) in C:\Users\GhoSt\Desktop\projeler\emodayazilim\CoreLibrary\TestProject\Program.cs:line 20
+2021-03-19 00:30:07.399 +03:00 [INF] WebApi Starting...
+2021-03-19 00:30:08.640 +03:00 [ERR] System.ArgumentNullException: Value cannot be null. (Parameter 'serviceType')
+   at Autofac.Core.TypedService..ctor(Type serviceType)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass7_0`3.<As>b__0(Type t)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass6_0`3.<As>b__0(Type t)
+   at Autofac.Features.Scanning.ScanningRegistrationExtensions.<>c__DisplayClass8_0`3.<As>b__0(Type t, IRegistrationBuilder`3 rb)
+   at Autofac.Features.Scanning.ScanningRegistrationExtensions.ScanTypes(IEnumerable`1 types, IComponentRegistryBuilder cr, IRegistrationBuilder`3 rb)
+   at Autofac.Features.Scanning.ScanningRegistrationExtensions.ScanAssemblies(IEnumerable`1 assemblies, IComponentRegistryBuilder cr, IRegistrationBuilder`3 rb)
+   at Autofac.Features.Scanning.ScanningRegistrationExtensions.<>c__DisplayClass0_0.<RegisterAssemblyTypes>b__0(IComponentRegistryBuilder cr)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at TestProject.Program.Main(String[] args) in C:\Users\GhoSt\Desktop\projeler\emodayazilim\CoreLibrary\TestProject\Program.cs:line 20
+2021-03-19 00:30:37.914 +03:00 [INF] WebApi Starting...
+2021-03-19 00:31:27.801 +03:00 [ERR] System.ArgumentNullException: Value cannot be null. (Parameter 'serviceType')
+   at Autofac.Core.TypedService..ctor(Type serviceType)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass7_0`3.<As>b__0(Type t)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass6_0`3.<As>b__0(Type t)
+   at Autofac.Features.Scanning.ScanningRegistrationExtensions.<>c__DisplayClass8_0`3.<As>b__0(Type t, IRegistrationBuilder`3 rb)
+   at Autofac.Features.Scanning.ScanningRegistrationExtensions.ScanTypes(IEnumerable`1 types, IComponentRegistryBuilder cr, IRegistrationBuilder`3 rb)
+   at Autofac.Features.Scanning.ScanningRegistrationExtensions.ScanAssemblies(IEnumerable`1 assemblies, IComponentRegistryBuilder cr, IRegistrationBuilder`3 rb)
+   at Autofac.Features.Scanning.ScanningRegistrationExtensions.<>c__DisplayClass0_0.<RegisterAssemblyTypes>b__0(IComponentRegistryBuilder cr)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at TestProject.Program.Main(String[] args) in C:\Users\GhoSt\Desktop\projeler\emodayazilim\CoreLibrary\TestProject\Program.cs:line 20
+2021-03-19 00:34:12.595 +03:00 [INF] WebApi Starting...
+2021-03-19 00:34:20.441 +03:00 [INF] HTTP HEAD https://localhost:44350/ responded 404 in 37.5651 ms
+2021-03-19 00:34:20.486 +03:00 [INF] HTTP GET /swagger responded 301 in 99.2234 ms
+2021-03-19 00:34:20.657 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 102.8199 ms
+2021-03-19 00:34:20.846 +03:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 83.3756 ms
+2021-03-19 00:34:20.846 +03:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 86.6148 ms
+2021-03-19 00:34:20.851 +03:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 89.2564 ms
+2021-03-19 00:34:21.543 +03:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 1.1862 ms
+2021-03-19 00:34:21.607 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 107.1687 ms
+2021-03-19 00:41:29.984 +03:00 [INF] HTTP OPTIONS /WeatherForecast/DeCryptData responded 204 in 4.7692 ms
+2021-03-19 00:41:29.984 +03:00 [INF] HTTP OPTIONS /WeatherForecast/DeCryptData responded 204 in 4.7691 ms
+2021-03-19 00:41:30.310 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating Core.Application.Repository.EF.EfRepository`1[[Core.UserEntity, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Core.Application.Repository.EF.EfRepository`1[Core.UserEntity]' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Core.Application.Repository.EF.CryptedDataContext _cryptedContext' of constructor 'Void .ctor(Core.Application.Repository.EF.DataContext, Core.Application.Repository.EF.CryptedDataContext)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetAllBindings(ConstructorBinder[] availableConstructors, IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.<>c__DisplayClass5_0.<Execute>b__0()
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid id, Func`1 creator)
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid primaryId, Nullable`1 qualifyingId, Func`1 creator)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method364(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-19 00:41:30.310 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating Core.Application.Repository.EF.EfRepository`1[[Core.UserEntity, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Core.Application.Repository.EF.EfRepository`1[Core.UserEntity]' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Core.Application.Repository.EF.CryptedDataContext _cryptedContext' of constructor 'Void .ctor(Core.Application.Repository.EF.DataContext, Core.Application.Repository.EF.CryptedDataContext)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetAllBindings(ConstructorBinder[] availableConstructors, IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.<>c__DisplayClass5_0.<Execute>b__0()
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid id, Func`1 creator)
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid primaryId, Nullable`1 qualifyingId, Func`1 creator)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method364(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-19 00:41:30.603 +03:00 [ERR] {"UserId":null,"Path":"/WeatherForecast/DeCryptData","Method":"POST","StatusCode":500,"ErrorMessage":"An exception was thrown while activating Core.Application.Repository.EF.EfRepository`1[[Core.UserEntity, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].","DateCreated":"2021-03-19T00:41:30.4257061+03:00"}
+2021-03-19 00:41:30.603 +03:00 [ERR] {"UserId":null,"Path":"/WeatherForecast/DeCryptData","Method":"POST","StatusCode":500,"ErrorMessage":"An exception was thrown while activating Core.Application.Repository.EF.EfRepository`1[[Core.UserEntity, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].","DateCreated":"2021-03-19T00:41:30.4256993+03:00"}
+2021-03-19 00:41:30.610 +03:00 [ERR] HTTP POST /WeatherForecast/DeCryptData responded 500 in 598.4522 ms
+2021-03-19 00:41:30.611 +03:00 [ERR] HTTP POST /WeatherForecast/DeCryptData responded 500 in 600.7073 ms
+2021-03-19 00:44:08.179 +03:00 [INF] HTTP OPTIONS /WeatherForecast/DeCryptData responded 204 in 0.3228 ms
+2021-03-19 00:44:08.179 +03:00 [INF] HTTP OPTIONS /WeatherForecast/DeCryptData responded 204 in 0.1593 ms
+2021-03-19 00:44:08.217 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating Core.Application.Repository.EF.EfRepository`1[[Core.UserEntity, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Core.Application.Repository.EF.EfRepository`1[Core.UserEntity]' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Core.Application.Repository.EF.CryptedDataContext _cryptedContext' of constructor 'Void .ctor(Core.Application.Repository.EF.DataContext, Core.Application.Repository.EF.CryptedDataContext)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetAllBindings(ConstructorBinder[] availableConstructors, IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.<>c__DisplayClass5_0.<Execute>b__0()
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid id, Func`1 creator)
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid primaryId, Nullable`1 qualifyingId, Func`1 creator)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method364(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-19 00:44:08.217 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating Core.Application.Repository.EF.EfRepository`1[[Core.UserEntity, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Core.Application.Repository.EF.EfRepository`1[Core.UserEntity]' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Core.Application.Repository.EF.CryptedDataContext _cryptedContext' of constructor 'Void .ctor(Core.Application.Repository.EF.DataContext, Core.Application.Repository.EF.CryptedDataContext)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetAllBindings(ConstructorBinder[] availableConstructors, IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.<>c__DisplayClass5_0.<Execute>b__0()
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid id, Func`1 creator)
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid primaryId, Nullable`1 qualifyingId, Func`1 creator)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method364(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-19 00:44:08.228 +03:00 [ERR] {"UserId":null,"Path":"/WeatherForecast/DeCryptData","Method":"POST","StatusCode":500,"ErrorMessage":"An exception was thrown while activating Core.Application.Repository.EF.EfRepository`1[[Core.UserEntity, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].","DateCreated":"2021-03-19T00:44:08.227381+03:00"}
+2021-03-19 00:44:08.235 +03:00 [ERR] {"UserId":null,"Path":"/WeatherForecast/DeCryptData","Method":"POST","StatusCode":500,"ErrorMessage":"An exception was thrown while activating Core.Application.Repository.EF.EfRepository`1[[Core.UserEntity, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].","DateCreated":"2021-03-19T00:44:08.2328563+03:00"}
+2021-03-19 00:44:08.241 +03:00 [ERR] HTTP POST /WeatherForecast/DeCryptData responded 500 in 28.3917 ms
+2021-03-19 00:44:08.241 +03:00 [ERR] HTTP POST /WeatherForecast/DeCryptData responded 500 in 28.3492 ms
+2021-03-19 00:45:42.199 +03:00 [INF] HTTP OPTIONS /WeatherForecast/DeCryptData responded 204 in 0.2423 ms
+2021-03-19 00:45:42.199 +03:00 [INF] HTTP OPTIONS /WeatherForecast/DeCryptData responded 204 in 0.2623 ms
+2021-03-19 00:45:42.230 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating Core.Application.Repository.EF.EfRepository`1[[Core.UserEntity, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Core.Application.Repository.EF.EfRepository`1[Core.UserEntity]' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Core.Application.Repository.EF.CryptedDataContext _cryptedContext' of constructor 'Void .ctor(Core.Application.Repository.EF.DataContext, Core.Application.Repository.EF.CryptedDataContext)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetAllBindings(ConstructorBinder[] availableConstructors, IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.<>c__DisplayClass5_0.<Execute>b__0()
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid id, Func`1 creator)
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid primaryId, Nullable`1 qualifyingId, Func`1 creator)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method364(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-19 00:45:42.231 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating Core.Application.Repository.EF.EfRepository`1[[Core.UserEntity, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Core.Application.Repository.EF.EfRepository`1[Core.UserEntity]' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Core.Application.Repository.EF.CryptedDataContext _cryptedContext' of constructor 'Void .ctor(Core.Application.Repository.EF.DataContext, Core.Application.Repository.EF.CryptedDataContext)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetAllBindings(ConstructorBinder[] availableConstructors, IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.<>c__DisplayClass5_0.<Execute>b__0()
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid id, Func`1 creator)
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid primaryId, Nullable`1 qualifyingId, Func`1 creator)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method364(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-19 00:45:42.260 +03:00 [ERR] {"UserId":null,"Path":"/WeatherForecast/DeCryptData","Method":"POST","StatusCode":500,"ErrorMessage":"An exception was thrown while activating Core.Application.Repository.EF.EfRepository`1[[Core.UserEntity, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].","DateCreated":"2021-03-19T00:45:42.2592649+03:00"}
+2021-03-19 00:45:42.264 +03:00 [ERR] {"UserId":null,"Path":"/WeatherForecast/DeCryptData","Method":"POST","StatusCode":500,"ErrorMessage":"An exception was thrown while activating Core.Application.Repository.EF.EfRepository`1[[Core.UserEntity, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].","DateCreated":"2021-03-19T00:45:42.2639306+03:00"}
+2021-03-19 00:45:42.268 +03:00 [ERR] HTTP POST /WeatherForecast/DeCryptData responded 500 in 46.7928 ms
+2021-03-19 00:45:42.269 +03:00 [ERR] HTTP POST /WeatherForecast/DeCryptData responded 500 in 41.1849 ms
+2021-03-19 00:46:02.682 +03:00 [INF] WebApi Starting...
+2021-03-19 00:46:04.464 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 126.9920 ms
+2021-03-19 00:46:05.063 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 100.7503 ms
+2021-03-19 00:46:17.900 +03:00 [INF] HTTP OPTIONS /WeatherForecast/DeCryptData responded 204 in 6.9846 ms
+2021-03-19 00:46:17.900 +03:00 [INF] HTTP OPTIONS /WeatherForecast/DeCryptData responded 204 in 6.9887 ms
+2021-03-19 00:46:18.145 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating Core.Application.Repository.EF.EfRepository`1[[Core.UserEntity, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Core.Application.Repository.EF.EfRepository`1[Core.UserEntity]' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Core.Application.Repository.EF.CryptedDataContext _cryptedContext' of constructor 'Void .ctor(Core.Application.Repository.EF.DataContext, Core.Application.Repository.EF.CryptedDataContext)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetAllBindings(ConstructorBinder[] availableConstructors, IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.RegistrationPipelineInvokeMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.<>c__DisplayClass5_0.<Execute>b__0()
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid id, Func`1 creator)
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid primaryId, Nullable`1 qualifyingId, Func`1 creator)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method364(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-19 00:46:18.145 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating Core.Application.Repository.EF.EfRepository`1[[Core.UserEntity, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Core.Application.Repository.EF.EfRepository`1[Core.UserEntity]' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Core.Application.Repository.EF.CryptedDataContext _cryptedContext' of constructor 'Void .ctor(Core.Application.Repository.EF.DataContext, Core.Application.Repository.EF.CryptedDataContext)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetAllBindings(ConstructorBinder[] availableConstructors, IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.RegistrationPipelineInvokeMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.<>c__DisplayClass5_0.<Execute>b__0()
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid id, Func`1 creator)
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid primaryId, Nullable`1 qualifyingId, Func`1 creator)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method365(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-19 00:46:18.372 +03:00 [ERR] {"UserId":null,"Path":"/WeatherForecast/DeCryptData","Method":"POST","StatusCode":500,"ErrorMessage":"An exception was thrown while activating Core.Application.Repository.EF.EfRepository`1[[Core.UserEntity, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].","DateCreated":"2021-03-19T00:46:18.2261636+03:00"}
+2021-03-19 00:46:18.372 +03:00 [ERR] {"UserId":null,"Path":"/WeatherForecast/DeCryptData","Method":"POST","StatusCode":500,"ErrorMessage":"An exception was thrown while activating Core.Application.Repository.EF.EfRepository`1[[Core.UserEntity, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].","DateCreated":"2021-03-19T00:46:18.2261694+03:00"}
+2021-03-19 00:46:18.378 +03:00 [ERR] HTTP POST /WeatherForecast/DeCryptData responded 500 in 443.8286 ms
+2021-03-19 00:46:18.378 +03:00 [ERR] HTTP POST /WeatherForecast/DeCryptData responded 500 in 443.9453 ms
+2021-03-19 00:46:48.598 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating Core.Application.Repository.EF.EfRepository`1[[Core.UserEntity, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Core.Application.Repository.EF.EfRepository`1[Core.UserEntity]' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Core.Application.Repository.EF.CryptedDataContext _cryptedContext' of constructor 'Void .ctor(Core.Application.Repository.EF.DataContext, Core.Application.Repository.EF.CryptedDataContext)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetAllBindings(ConstructorBinder[] availableConstructors, IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.<>c__DisplayClass5_0.<Execute>b__0()
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid id, Func`1 creator)
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid primaryId, Nullable`1 qualifyingId, Func`1 creator)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method364(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-19 00:46:48.605 +03:00 [ERR] {"UserId":null,"Path":"/WeatherForecast/DeCryptData","Method":"POST","StatusCode":500,"ErrorMessage":"An exception was thrown while activating Core.Application.Repository.EF.EfRepository`1[[Core.UserEntity, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].","DateCreated":"2021-03-19T00:46:48.6049907+03:00"}
+2021-03-19 00:46:48.607 +03:00 [ERR] HTTP POST /WeatherForecast/DeCryptData responded 500 in 15.1676 ms
+2021-03-19 00:47:36.788 +03:00 [INF] WebApi Starting...
+2021-03-19 00:47:38.949 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 124.1413 ms
+2021-03-19 00:47:39.429 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 102.0156 ms
+2021-03-19 00:47:39.770 +03:00 [INF] HTTP POST /WeatherForecast/DeCryptData responded 400 in 226.2803 ms
+2021-03-19 00:47:51.564 +03:00 [INF] HTTP POST /WeatherForecast/DeCryptData responded 400 in 2.2646 ms
+2021-03-19 00:48:36.576 +03:00 [INF] WebApi Starting...
+2021-03-19 00:48:38.467 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 119.9703 ms
+2021-03-19 00:48:38.946 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 117.1044 ms
+2021-03-19 00:48:49.641 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Core.DataSecurity.CryptoManager.DecrypteAES(String cipherText) in C:\Users\GhoSt\Desktop\projeler\emodayazilim\CoreLibrary\Core\Security\DataSecurity\Encryption.cs:line 29
+   at TestProject.Controllers.WeatherForecastController.DeCryptData(request cry) in C:\Users\GhoSt\Desktop\projeler\emodayazilim\CoreLibrary\TestProject\Controllers\WeatherForecastController.cs:line 88
+   at lambda_method362(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-19 00:48:49.862 +03:00 [ERR] {"UserId":null,"Path":"/WeatherForecast/DeCryptData","Method":"POST","StatusCode":500,"ErrorMessage":"The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.","DateCreated":"2021-03-19T00:48:49.7322838+03:00"}
+2021-03-19 00:48:49.866 +03:00 [ERR] HTTP POST /WeatherForecast/DeCryptData responded 500 in 7984.1840 ms
+2021-03-19 00:49:04.115 +03:00 [INF] HTTP OPTIONS /WeatherForecast/DeCryptData responded 204 in 0.7854 ms
+2021-03-19 00:49:04.164 +03:00 [INF] HTTP POST /WeatherForecast/DeCryptData responded 200 in 36.8943 ms
+2021-03-19 00:49:04.205 +03:00 [INF] HTTP POST /WeatherForecast/DeCryptData responded 200 in 0.9094 ms
